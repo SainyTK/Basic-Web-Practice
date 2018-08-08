@@ -1,0 +1,7 @@
+body{
+    background: linear-gradient(red,blue);
+    background-repeat: no-repeat;
+}
+h1{
+    color: aliceblue;
+}
