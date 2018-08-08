@@ -6,16 +6,20 @@
     <body>
         <h1>Register</h1>
         <form action="page1.html" method="POST">
-            <p>Username : </p><input type="text">
-            <p>Password : </p><input type="password">
-            <p><input type="checkbox" checked> Generate Secret</p>
-            <p>Gender : </p>
-            <select>
+            <label for="username">Username : </label><input type="text" name="username">
+            <br>
+            <label for="password">Password : </label><input type="password" name="password">
+            <br>
+            <label for="secret"><input type="checkbox" name="secret" checked> Generate Secret</p>
+            <br>
+            <label for="gender">Gender : </label>
+            <select name="gender">
                 <option>Male</option>
                 <option>Female</option>
             </select>
-            <p>Favourite Color : </p>
-            <select>
+            <br>
+            <label for="color">Favourite Color : </label>
+            <select name="color">
                 <optgroup label="Light Color">
                     <option>White</option>
                     <option>Yellow</option>
@@ -27,7 +31,8 @@
                     <option>Purple</option>
                 </optgroup>
             </select>
-            <p><input type="submit" value="Submit"></p>
+            <br>
+            <input type="submit" value="Submit">
         </form>
     </body>
 </html>
